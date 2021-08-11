@@ -1,4 +1,4 @@
-from pyrogram import Client, Filters
+from pyrogram import Client
 
 
 @Client.on_message(Filters.command(["help"]))
